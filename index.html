@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>TRIVIALY</title>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+    </header>
+<body>  
+    <section id="bienvenida">
+        <h1>Bienvenidos a TRIVIALY</h1>
+        <p>Para iniciar escribe tu nombre de usuario</p>
+        <div>
+        <input type="text" id="nombre"/> <br><br>
+        <input class="boton" type="button" value="Comencémos" id="Iniciar"/> 
+        </div> <br> 
+    </section>
+    <section id="pantalla2">
+        <h1>Juega con nosotros</h1>
+        <div id="saludo">
+        </div><br>  
+        <div> 
+            <input class="boton" type="button" value="Video juegos" id="video_juegos"/> 
+            <input class="boton" type="button" value="Programación" id="programacion"/>
+        </div> <br> 
+    </section>
+    <section id="videoJuegos1">
+        <h1> 1/3</h1>
+        <p> ¿Cúal es el video juego de consola mas popular en la actualidad? </p>
+        <div>
+            <input type="radio" name="pregunta1" value="1" id="correct">Fornite
+            <br>
+            <input type="radio" name="pregunta1" value="2" id="incorrect"  >GTA
+            <br>
+            <input type="radio" name="pregunta1" value="3" id="incorrect2">FIFA
+        </div>
+        <div>
+            <br><input class="boton" type="button" value="Siguiente"  id="continuar"/>
+        </div><br> 
+    </section>
+    <section id="videoJuegos2">
+        <h1> 2/2</h1>
+        <p> El juego en linea 'Clash Royal' es un juego</p>
+        <div>
+            <input type="radio" name="pregunta2" value="1" id="incorrect4"  >De aventura
+            <br>
+            <input type="radio" name="pregunta2" value="2"id="correct2">De estrategia
+            <br>
+            <input type="radio" name="pregunta2" value="3" id="incorrect5">De carreras 
+        </div>
+        <div>
+            <br> <input class="boton" type="button" value="Siguiente"  id="continuar1"/>
+        </div><br>    
+    </section>
+    <section id="videoJuegos3">
+        <h1> 3/3</h1>
+        <p> ¿Cómo se suele llamar a una persona que gana dinero jugando video juegos?</p>
+    <div>
+        <input type="radio" name="pregunta3" value="1" id="incorrect6">Gamer
+        <br>
+        <input type="radio" name="pregunta3" value="2"  id="incorrect7">Aficionado
+        <br>
+        <input type="radio" name="pregunta3" value="3" id="correct3">Pro gamer
+    </div>
+    <div>
+        <br><input  class="boton" type="button" value="Responder y resultados"  id="resultados"/>
+    </div><br> 
+    </section> 
+    <section id="mostrarResultados">
+        <h1>Puntaje:</h1>
+        <p>Este es tu puntaje</p>
+        <div id="puntaje">
+        </div>
+            <p>¿Te gustaria intentarlo nuevamente?</p>
+        <div>
+        <input  class="boton" type="button" value="¡Claro que si!"  id="volverjugar"/>
+        <input  class="boton" type="button" value="Finalizar" id="finalizar"/>
+        </div><br> 
+    </section>  
+    <section id="programacion1">
+        <h1> 1/3 </h1>
+        <p> Se utiliza para estilizar y organizar el contenido web, así como para añadir comportamiento tal como la animación. </p>
+        <div>
+            <input type="radio" name="pregunta1" value="1" id="incorrectp1">Responsive
+            <br>
+            <input type="radio" name="pregunta1" value="2" id="incorrectp2"  >JavaScript
+            <br>
+            <input type="radio" name="pregunta1" value="3" id="correctp1">CSS
+        </div><br>
+        <div>
+            <input class="boton" type="button" value="Siguiente"  id="continuarp1"/>
+        </div><br> 
+    </section>
+    <section id="programacion2">
+        <h1> 2/3</h1>
+        <p> ¿Cúal de los siguientes NO es un Lenguaje de programación? </p>
+        <div>
+            <input type="radio" name="pregunta2" value="1" id="incorrectp3">Phyton
+            <br>
+            <input type="radio" name="pregunta2" value="2" id="correctp2">HTML
+            <br>
+            <input type="radio" name="pregunta2" value="3" id="incorrectp4">SQL
+        </div><br>
+        <div>
+            <input class="boton" type="button" value="Siguiente"  id="continuarp2"/>
+        </div><br> 
+    </section>
+    <section id="programacion3">
+        <h1> 3/3</h1>
+        <p> Estructura basica de un documento HTML </p>
+        <div>
+            <input type="radio" name="pregunta3" value="1" id="correctp3">Html, Head, body, footer.
+            <br>
+            <input type="radio" name="pregunta3" value="2" id="incorrectp5"  >Html,Head, body, main.
+            <br>
+            <input type="radio" name="pregunta3" value="3" id="incorrectp6">!DOCTYPE, Header, body, footer.
+        </div><br>
+        <div>
+            <input class="boton" type="button" value="Responder y Resultados"  id="resultadosp"/>
+        </div><br> 
+    </section>
+    <section id="agradecimientos">
+        <h1> ¡Gracias por utilizar Trivialy!</h1>
+    </section>
+    <script src="interactions.js"></script>
+</body>
+</html>

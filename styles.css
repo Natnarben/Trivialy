@@ -1,0 +1,96 @@
+.boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #7E8EBF;
+    border-radius: 6px;
+    border: 2px solid #7E8EBF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#bienvenida{
+    text-align:center;
+    display: inline;
+}
+
+#pantalla2{
+    display: none;
+    text-align:center;
+}
+
+#videoJuegos1{
+    display: none;
+    text-align:center;
+}
+
+#videoJuegos2{
+    display: none;
+    text-align:center;
+}
+
+#videoJuegos3{
+    display: none;
+    text-align:center;
+}
+
+
+#mostrarResultados{
+    display: none;
+    text-align:center;
+}
+
+
+#programacion1{
+    display: none;
+    text-align:center;
+}
+
+#programacion2{
+    display: none;
+    text-align:center;
+}
+
+#programacion3{
+    display: none;
+    text-align:center;
+}
+
+#agradecimientos{
+    display: none;
+    text-align:center;
+}
+
+body{
+    background: url("imagenfondo1.jpeg");  background-size:350px 250px;
+    border: 5px solid #7E8EBF;
+    margin-top: 180px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 180px;
+}
+
+h1 {
+    color:white;
+    background-image: none;
+    background-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+p {
+    color: #222E73;
+    background-image: none;
+    font-weight:600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+div {
+    color: #222E73;;
+    background-image: none;
+    font-weight:600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
